@@ -1,0 +1,33 @@
+_repo: A-lyttel-booke-of-nonsense_75511
+_version: 0.0.1
+creator:
+  author:
+    agent_name: Davies, Randall
+    aliases:
+    - Davies, Randall Robert Henry
+    - R. D. (Randall Davies)
+    - D., R. (Randall Davies)
+    birthdate: 1866
+    deathdate: 1946
+    gutenberg_agent_id: '33967'
+    url: http://www.gutenberg.org/2009/agents/33967
+description: ''
+gutenberg_issued: '2025-03-03'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '75511'
+language: en
+pgterms:marc904: https://archive.org/details/lyttelbookeofnon00davi/mode/2up
+pgterms:marc905: 20240529140617dauthor
+pgterms:marc906: '1912'
+pgterms:marc907: GB
+production_note: Alan, Susan E. and the Online Distributed Proofreading Team at https://www.pgdp.net
+  (This file was produced from images generously made available by The Internet Archive)
+publication_note: '  $aLondon :$bMacmillan & Co. Ld., $c1912.'
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- GITenberg
+title: A lyttel booke of nonsense
+url: http://www.gutenberg.org/ebooks/75511
