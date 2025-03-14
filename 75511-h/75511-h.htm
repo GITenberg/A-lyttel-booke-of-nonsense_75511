@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      A Lyttel Booke of Nonsense | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+    h1,h2,h3,h4,h5,h6 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+h1   {font-weight: normal;
+      font-size: 160%;
+      margin-top: 2em;
+      margin-bottom: 4em;
+      word-spacing: 0.3em;
+      font-family: "Old English Text MT", sans-serif;
+      }
+
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+    font-family: "Old English Text MT", sans-serif;
+    font-size: 130%;
+}
+
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
+ 
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+ul.index { list-style-type: none; }
+li.ifrst {
+    margin-top: 1em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.indx  {
+    margin-top: .5em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.isub1 {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+li.isub2 {
+    text-indent: -2em;
+    padding-left: 3em;
+}
+li.isub3 {
+    text-indent: -2em;
+    padding-left: 4em;
+}
+li.isub4 {
+    text-indent: -2em;
+    padding-left: 5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 0.25em; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    visibility: hidden;
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.linenum {
+    position: absolute;
+    top: auto;
+    left: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+} /* poetry number */
+
+.blockquot {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.sidenote {
+    width: 20%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 1em;
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    font-size: small;
+    color: black;
+    background: #eeeeee;
+    border: 1px dashed;
+}
+
+.big     {font-size: 380%;}
+.xxlarge  {font-size: 220%;}
+.up      {font-size: 160%;}
+.xlarge  {font-size: 140%;}
+.large   {font-size: 120%;}
+.less    {font-size: 90%;}
+.more    {font-size: 80%;}
+.med    {font-size: 70%;}
+.mid    {font-size: 60%;}
+
+.c        {text-align: center;}
+
+.sp     {word-spacing: 0.3em;}
+
+.r        {text-align: right;
+           margin-right: 2em;}
+
+.l        {text-align: left;
+           margin-left: 2em;}
+
+.bb       {border-bottom: 2px solid;}
+
+.bl       {border-left: 2px solid;}
+
+.bt       {border-top: 2px solid;}
+
+.br       {border-right: 2px solid;}
+
+.bbox     {border: 4px solid;}
+
+.center   {text-align: center;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.u        {text-decoration: underline;}
+
+.gesperrt
+{
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+
+em.gesperrt
+{
+    font-style: normal;
+}
+
+.caption  {font-weight: bold;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figcenter1 {
+    padding-bottom: 6em;
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+.poetry-container {display: flex; justify-content: center;}
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%; font-family: "Old English Text MT", sans-serif;
+    font-size: 140%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    margin-top:3em;
+    font-family:sans-serif, serif;
+    border: .3em double gray;
+    padding: 1em;
+}
+.poetry .indent0 {text-indent: -3em;}
+.poetry .indent4 {text-indent: -1em;}
+.poetry .indent5 {text-indent: -0.5em;}
+
+    </style>
+</head>
+<body>
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 75511 ***</div>
+
+
+<div class="figcenter">
+<img src="images/cover.jpg" alt="cover">
+</div>
+
+<h1>A Lyttel Booke of Nonsense</h1>
+
+<div class="bbox">
+
+<p class="c sp big">
+A Lyttel Booke<br>
+of Nonsense
+</p>
+
+<div class="figcenter">
+<img src="images/fig1.jpg" alt="front">
+</div>
+
+
+<p class="c sp up">
+London: Macmillan &amp; Co. Ld.<br>
+mdccccxii
+</p></div>
+
+
+<p class="c less p4">
+Copyright</p>
+
+<p class="c less sp">
+First published<br>
+1912
+</p>
+
+
+<p class="c sp xxlarge">To the Reader</p>
+
+
+<p>Few of the cuts in this book are less than
+four hundred years old. To join them to
+new occasions need be no slur on their value
+and beauty, if the rhyme be taken as lightly
+as it is offered by a lover of old things as
+well as new, who is indebted to Messrs.
+Quaritch, Leighton, Barnard, and others, for
+much more than is here to be seen, as also
+to Edward Lear.</p>
+
+<p class="r">
+R. D.</p>
+
+<p class="l large">
+Chelsea, mcmxii.
+</p>
+
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+
+<p class="c sp p4">A Lyttel Booke of Nonsense</p>
+
+<p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Sark,</div>
+    <div class="verse indent0">Who wandered about in the Park;</div>
+    <div class="verse indent4">When the constable said</div>
+    <div class="verse indent4">He’d be better in bed,</div>
+    <div class="verse indent0">He replied, “I’m afraid of the dark.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig2.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_4">[Pg 4]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of Sheerness,</div>
+    <div class="verse indent0">Who invited a friend to play chess;</div>
+    <div class="verse indent4">But he’d lent all the pieces</div>
+    <div class="verse indent4">To one of his nieces,</div>
+    <div class="verse indent0">And stupidly lost her address.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig3.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_6">[Pg 6]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Trent,</div>
+    <div class="verse indent0">Who sold little boxes of scent;</div>
+    <div class="verse indent4">But they said to him “Smell them</div>
+    <div class="verse indent4">Yourself ere you sell them!”</div>
+    <div class="verse indent0">Which made him feel far from content.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_7">[Pg 7]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig4.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_8">[Pg 8]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow called Cox,</div>
+    <div class="verse indent0">Who tried to jump over the rocks;</div>
+    <div class="verse indent4">But they said “Poor old feller,</div>
+    <div class="verse indent4">He has come a smeller,</div>
+    <div class="verse indent0">And look at the holes in his socks!”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_9">[Pg 9]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig5.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_10">[Pg 10]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Treves,</div>
+    <div class="verse indent0">Who met with a watery grave;</div>
+    <div class="verse indent4">There was nobody nigh</div>
+    <div class="verse indent4">To attend to his cry</div>
+    <div class="verse indent0">As he sank ’neath the swallowing wave.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_11">[Pg 11]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig6.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_12">[Pg 12]</span></p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+   <div class="verse indent0">There was a young fellow of Cadiz,</div>
+   <div class="verse indent0">Who said “What a blessing Free Trade is;</div>
+   <div class="verse indent4">But it’s not my ambition</div>
+   <div class="verse indent4">To turn politician—</div>
+   <div class="verse indent0">So let’s go and talk to these ladies.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_13">[Pg 13]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig7.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_14">[Pg 14]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Athlone,</div>
+    <div class="verse indent0">Who was trying to ride like Tod Sloan;</div>
+    <div class="verse indent4">But a brute of a bee</div>
+    <div class="verse indent4">So bewildered his gee</div>
+    <div class="verse indent0">That he hardly escaped being thrown.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_15">[Pg 15]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig8.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_16">[Pg 16]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Brill,</div>
+    <div class="verse indent0">Who supported the Parliament Bill;</div>
+    <div class="verse indent4">But he’d larger ideas</div>
+    <div class="verse indent4">For reforming the Peers,</div>
+    <div class="verse indent0">And suggested a better way still.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_17">[Pg 17]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig9.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_18">[Pg 18]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Derry,</div>
+    <div class="verse indent0">Who loved to see every one merry;</div>
+    <div class="verse indent4">So he asked them to tea</div>
+    <div class="verse indent4">At a mulberry tree,</div>
+    <div class="verse indent0">And gave them some excellent sherry.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_19">[Pg 19]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig10.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_20">[Pg 20]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Kansas,</div>
+    <div class="verse indent0">Who couldn’t remember the Lancers;</div>
+    <div class="verse indent4">When they’d got half way through</div>
+    <div class="verse indent4">He’d forget what to do,</div>
+    <div class="verse indent0">Which flummoxed the rest of the dancers.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_21">[Pg 21]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig11.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_22">[Pg 22]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Sherborne,</div>
+    <div class="verse indent0">Who would go to church in a turban;</div>
+    <div class="verse indent4">When they put him outside</div>
+    <div class="verse indent4">He politely replied</div>
+    <div class="verse indent0">That he thought their ideas were suburban.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_23">[Pg 23]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig12.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_24">[Pg 24]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Reading,</div>
+    <div class="verse indent0">Who went to his granddaughter’s wedding;</div>
+    <div class="verse indent4">When they asked for a present</div>
+    <div class="verse indent4">He tried to look pleasant,</div>
+    <div class="verse indent0">But said “This is what I was dreading.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_25">[Pg 25]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig13.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_26">[Pg 26]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young housemaid at Ashdown,</div>
+    <div class="verse indent0">Who strained herself pulling the sash down;</div>
+    <div class="verse indent4">Being duly insured,</div>
+    <div class="verse indent4">She was months being cured,</div>
+    <div class="verse indent0">But the doctor insisted on cash down.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig14.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_28">[Pg 28]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old girl of Carstairs,</div>
+    <div class="verse indent0">Whose villa required some repairs;</div>
+    <div class="verse indent4">When she asked if the plumber</div>
+    <div class="verse indent4">Could finish next summer,</div>
+    <div class="verse indent0">He said he should be there for years.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_29">[Pg 29]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig15.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_30">[Pg 30]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady of Bude,</div>
+    <div class="verse indent0">Who frequently painted the nude;</div>
+    <div class="verse indent4">So that some of her pictures</div>
+    <div class="verse indent4">Invited the strictures</div>
+    <div class="verse indent0">Of many an ignorant prude.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_31">[Pg 31]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig16.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_32">[Pg 32]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of Baroda,</div>
+    <div class="verse indent0">Who said, “I perceive a bad odour”;</div>
+    <div class="verse indent4">When they said, “Is it faint?”</div>
+    <div class="verse indent4">He replied, “No, it ain’t,”</div>
+    <div class="verse indent0">So they fetched him a whiskey and soda.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_33">[Pg 33]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig17.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_34">[Pg 34]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Biscay,</div>
+    <div class="verse indent0">Who gave all his horses some whiskey;</div>
+    <div class="verse indent4">Which resulted in some</div>
+    <div class="verse indent4">Being quite overcome,</div>
+    <div class="verse indent0">And others decidedly frisky.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_35">[Pg 35]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig18.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_36">[Pg 36]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Shere,</div>
+    <div class="verse indent0">Who wanted to act Chanticler;</div>
+    <div class="verse indent4">To say that his dress</div>
+    <div class="verse indent4">Was a brilliant success</div>
+    <div class="verse indent0">Would be saying as much as we dare.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_37">[Pg 37]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig19.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_38">[Pg 38]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of Shoreditch,</div>
+    <div class="verse indent0">Whose motto was “Down with the rich,”</div>
+    <div class="verse indent4">But the mounted police</div>
+    <div class="verse indent4">In the interests of peace,</div>
+    <div class="verse indent0">Succeeded in queering his pitch.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_39">[Pg 39]</span></p>
+
+
+<div class="figcenter1">
+<img src="images/fig20.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_40">[Pg 40]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Dunblane,</div>
+    <div class="verse indent0">Who was seized with a horrible pain;</div>
+    <div class="verse indent4">When his wife asked him “Where?”</div>
+    <div class="verse indent4">He replied “Somewhere here;</div>
+    <div class="verse indent0">I must never touch muffins again.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_41">[Pg 41]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig21.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_42">[Pg 42]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of New Cross,</div>
+    <div class="verse indent0">Who rode a most marvellous horse;</div>
+    <div class="verse indent4">As it couldn’t be matched,</div>
+    <div class="verse indent4">All the others were scratched,</div>
+    <div class="verse indent0">And he simply walked over the course.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_43">[Pg 43]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig22.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_44">[Pg 44]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Belvoir,</div>
+    <div class="verse indent0">Who in Love was a stern disbeliever;</div>
+    <div class="verse indent4">But on going to the Castle</div>
+    <div class="verse indent4">To take them a parcel,</div>
+    <div class="verse indent0">He caught the insidious fever.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_45">[Pg 45]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig23.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_46">[Pg 46]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady called Pippa,</div>
+    <div class="verse indent0">Who wanted to play hunt the Slipper;</div>
+    <div class="verse indent4">But she said she’d prefer</div>
+    <div class="verse indent4">Their removing the spur,</div>
+    <div class="verse indent0">For fear that the rowel might nip her.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_47">[Pg 47]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig24.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_48">[Pg 48]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Lepanto,</div>
+    <div class="verse indent0">Who started to teach Esperanto;</div>
+    <div class="verse indent4">But they said, “It’s too much,</div>
+    <div class="verse indent4">We would sooner learn Dutch,”</div>
+    <div class="verse indent0">And told him to pack his portmanteau.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_49">[Pg 49]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig25.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_50">[Pg 50]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady called Mabel,</div>
+    <div class="verse indent0">Who hated a room with a gable;</div>
+    <div class="verse indent4">If there wasn’t another</div>
+    <div class="verse indent4">She said, “Oh don’t bother,</div>
+    <div class="verse indent0">I’ll sleep on the dining-room table.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_51">[Pg 51]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig26.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_52">[Pg 52]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old lady named Bonamy,</div>
+    <div class="verse indent0">Who lectured them all on astronomy;</div>
+    <div class="verse indent4">But they said, “It’s a bore,</div>
+    <div class="verse indent4">We have heard this before,</div>
+    <div class="verse indent0">You should stick to domestic economy.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_53">[Pg 53]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig27.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_54">[Pg 54]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Strathpeffer,</div>
+    <div class="verse indent0">Whose uncle grew deafer and deafer;</div>
+    <div class="verse indent4">When he asked after Mary,</div>
+    <div class="verse indent4">He thought he said “dairy,”</div>
+    <div class="verse indent0">And said, “She’s a beautiful heifer.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_55">[Pg 55]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig28.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_56">[Pg 56]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady of Rome,</div>
+    <div class="verse indent0">Who got lost in the great Catacomb;</div>
+    <div class="verse indent4">At the end of the week</div>
+    <div class="verse indent4">She was found by a Greek,</div>
+    <div class="verse indent0">Who insisted on seeing her home.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_57">[Pg 57]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig29.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_58">[Pg 58]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of the Wye,</div>
+    <div class="verse indent0">Who said, “I could sit down and cry;</div>
+    <div class="verse indent4">When the fish are all biting,</div>
+    <div class="verse indent4">This d——d little whiting</div>
+    <div class="verse indent0">Has swallowed my favourite fly.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_59">[Pg 59]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig30.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_60">[Pg 60]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man who said, “How</div>
+    <div class="verse indent0">Shall I flee from this horrible cow?</div>
+    <div class="verse indent4">I will stand on a stool,</div>
+    <div class="verse indent4">And pretend I’m at school,</div>
+    <div class="verse indent0">With mamma’s cockatoo on my brow.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_61">[Pg 61]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig31.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_62">[Pg 62]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of Montrose,</div>
+    <div class="verse indent0">Who discouraged his granddaughter’s beaux;</div>
+    <div class="verse indent4">When she asked them to call</div>
+    <div class="verse indent4">He said nothing at all,</div>
+    <div class="verse indent0">Or caught them a whack on the nose.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_63">[Pg 63]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig32.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_64">[Pg 64]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Tweeddale,</div>
+    <div class="verse indent0">Who played on the flute and the fiddle;</div>
+    <div class="verse indent4">But he made such a din</div>
+    <div class="verse indent4">That the neighbours came in,</div>
+    <div class="verse indent0">And made him leave off in the middle.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_65">[Pg 65]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig33.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_66">[Pg 66]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Spithead,</div>
+    <div class="verse indent0">Who never could get enough bread;</div>
+    <div class="verse indent4">Till he married a wife,</div>
+    <div class="verse indent4">Who restored him to life,</div>
+    <div class="verse indent0">For she made it herself—so she said.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_67">[Pg 67]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig34.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_68">[Pg 68]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady of Garth,</div>
+    <div class="verse indent0">Who was just getting into the bath,</div>
+    <div class="verse indent4">When her mother said, “Nelly,</div>
+    <div class="verse indent4">You must eat this jelly,</div>
+    <div class="verse indent0">You’re getting as thin as a lath.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_69">[Pg 69]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig35.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_70">[Pg 70]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young damsel of Ore,</div>
+    <div class="verse indent0">Who tickled a fool with a straw;</div>
+    <div class="verse indent4">Quoth the fool, “How it tickles,</div>
+    <div class="verse indent4">I can’t eat my victuals,</div>
+    <div class="verse indent0">Oh, don’t make me laugh any more!”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_71">[Pg 71]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig36.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_72">[Pg 72]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Raby,</div>
+    <div class="verse indent0">Who behaved like a regular gaby;</div>
+    <div class="verse indent4">When he went to the castle,</div>
+    <div class="verse indent4">To call for a parcel,</div>
+    <div class="verse indent0">He wanted to dandle the baby.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_73">[Pg 73]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig37.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_74">[Pg 74]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Belgrade,</div>
+    <div class="verse indent0">Who used to catch fish with a spade;</div>
+    <div class="verse indent4">When he’d caught three or four,</div>
+    <div class="verse indent4">He would fling them ashore,</div>
+    <div class="verse indent0">Where he fried them in warm lemonade.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_75">[Pg 75]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig38.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_76">[Pg 76]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Hawarden,</div>
+    <div class="verse indent0">Who entreated his visitors’ pardon;</div>
+    <div class="verse indent4">The boiler had cracked,</div>
+    <div class="verse indent4">As a matter of fact,</div>
+    <div class="verse indent0">So he brought them some lunch in the garden.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_77">[Pg 77]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig39.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_78">[Pg 78]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Lee,</div>
+    <div class="verse indent0">Who hid himself under a tree;</div>
+    <div class="verse indent4">But when winter came round</div>
+    <div class="verse indent4">He was easily found,</div>
+    <div class="verse indent0">For the leaves had come off—don’t you see?</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_79">[Pg 79]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig40.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_80">[Pg 80]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old lady of Lee,</div>
+    <div class="verse indent0">Who thought that her Chow had a flea;</div>
+    <div class="verse indent4">She was so much afraid,</div>
+    <div class="verse indent4">That she rang for her maid,</div>
+    <div class="verse indent0">But the butler said, “Leave it to me.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_81">[Pg 81]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig41.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_82">[Pg 82]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young sportsman, whose trouble</div>
+    <div class="verse indent0">Was constantly seeing things double;</div>
+    <div class="verse indent4">His dog and his ape</div>
+    <div class="verse indent4">Took a duplicate shape,</div>
+    <div class="verse indent0">And he noticed the same with the stubble.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_83">[Pg 83]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig42.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_84">[Pg 84]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man (of great age),</div>
+    <div class="verse indent0">Whose daughters were both on the stage;</div>
+    <div class="verse indent4">To the one who was Scotch</div>
+    <div class="verse indent4">He presented his watch—</div>
+    <div class="verse indent0">To the other a beautiful cage.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_85">[Pg 85]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig43.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_86">[Pg 86]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old knight of New Cross,</div>
+    <div class="verse indent0">Who was riding a troublesome horse;</div>
+    <div class="verse indent4">But he said, “If he rears,</div>
+    <div class="verse indent4">I shall just box his ears,</div>
+    <div class="verse indent0">Though I’d rather use kindness than force.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_87">[Pg 87]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig44.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_88">[Pg 88]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Southall,</div>
+    <div class="verse indent0">Who went to a fancy dress ball;</div>
+    <div class="verse indent4">Information we lack</div>
+    <div class="verse indent4">As to how he got back—</div>
+    <div class="verse indent0">Or whether he got back at all.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_89">[Pg 89]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig45.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_90">[Pg 90]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Leek,</div>
+    <div class="verse indent0">Who believed in compulsory Greek;</div>
+    <div class="verse indent4">As from being at college</div>
+    <div class="verse indent4">He’d no other knowledge,</div>
+    <div class="verse indent0">The reason was not far to seek.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_91">[Pg 91]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig46.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_92">[Pg 92]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Belgrade,</div>
+    <div class="verse indent0">And this was a drawing he made;</div>
+    <div class="verse indent4">People called it absurd,</div>
+    <div class="verse indent4">Though the critics averred</div>
+    <div class="verse indent0">That he must have been taught at the Slade.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_93">[Pg 93]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig47.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_94">[Pg 94]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady of Sfax,</div>
+    <div class="verse indent0">Who purchased some promising hacks;</div>
+    <div class="verse indent4">But when riding astraddle</div>
+    <div class="verse indent4">Without any saddle,</div>
+    <div class="verse indent0">She frequently fell off their backs.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_95">[Pg 95]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig48.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_96">[Pg 96]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old lady of Nice,</div>
+    <div class="verse indent0">Whose house was a haven of peace;</div>
+    <div class="verse indent4">Till they all got so warm</div>
+    <div class="verse indent4">Over Tariff Reform,</div>
+    <div class="verse indent0">That they had to call in the police.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_97">[Pg 97]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig49.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_98">[Pg 98]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Sheen,</div>
+    <div class="verse indent0">Who was trying to reach Gretna Green;</div>
+    <div class="verse indent4">But he saw with impatience</div>
+    <div class="verse indent4">That all his relations</div>
+    <div class="verse indent0">Were trying to be first on the scene.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_99">[Pg 99]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig50.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_100">[Pg 100]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of the coast,</div>
+    <div class="verse indent0">Whose wife was as deaf as a post;</div>
+    <div class="verse indent4">Unaware of his tread</div>
+    <div class="verse indent4">As he staggered to bed,</div>
+    <div class="verse indent0">Or the groans of the family ghost.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_101">[Pg 101]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig51.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_102">[Pg 102]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Pisa,</div>
+    <div class="verse indent0">Whose wife was descended from Caesar;</div>
+    <div class="verse indent4">The shape of his feet</div>
+    <div class="verse indent4">Made her joy incomplete—</div>
+    <div class="verse indent0">But she valued his efforts to please her.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_103">[Pg 103]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig52.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_104">[Pg 104]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Sheen,</div>
+    <div class="verse indent0">Who was hired to read to the Queen;</div>
+    <div class="verse indent4">But she told him to stop</div>
+    <div class="verse indent4">When he got to the top</div>
+    <div class="verse indent0">Of page ninety in chapter sixteen.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_105">[Pg 105]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig53.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_106">[Pg 106]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady of Shere,</div>
+    <div class="verse indent0">Who was loved by an indigent Peer,</div>
+    <div class="verse indent4">But she sacrificed rank</div>
+    <div class="verse indent4">To a share in a Bank—</div>
+    <div class="verse indent0">About 35,000 a year.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_107">[Pg 107]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig54.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_108">[Pg 108]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of St. Abbs,</div>
+    <div class="verse indent0">Who wanted to buy a few crabs;</div>
+    <div class="verse indent4">His annoyance was great</div>
+    <div class="verse indent4">When they offered him skate,</div>
+    <div class="verse indent0">And turbot, and haddocks and dabs.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_109">[Pg 109]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig55.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_110">[Pg 110]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Seattle,</div>
+    <div class="verse indent0">Whose brothers were killed in a battle;</div>
+    <div class="verse indent4">He feelingly said,</div>
+    <div class="verse indent4">“It’s a pity they’re dead—</div>
+    <div class="verse indent0">But I shall inherit their cattle.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_111">[Pg 111]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig56.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_112">[Pg 112]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Quorn,</div>
+    <div class="verse indent0">Who borrowed some dogs and a horn;</div>
+    <div class="verse indent4">Though he hadn’t a nag</div>
+    <div class="verse indent4">He got hold of a stag,</div>
+    <div class="verse indent0">And chased it all over the lawn.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_113">[Pg 113]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig57.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_114">[Pg 114]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The Lord Chamberlain, once, on a day,</div>
+    <div class="verse indent0">Was requested to license a play;</div>
+    <div class="verse indent4">But he said, “If it’s clever,</div>
+    <div class="verse indent4">My answer is Never!”</div>
+    <div class="verse indent0">And told them to take it away.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_115">[Pg 115]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig58.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_116">[Pg 116]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Parma,</div>
+    <div class="verse indent0">Who purchased a new suit of armour;</div>
+    <div class="verse indent4">When they said, “Does it fit?”</div>
+    <div class="verse indent4">He replied, “Not a bit—</div>
+    <div class="verse indent0">Pray leave me until I am calmer!”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_117">[Pg 117]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig59.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_118">[Pg 118]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady whose bonnet</div>
+    <div class="verse indent0">Had many remarks passed upon it;</div>
+    <div class="verse indent4">But she answered them, “Rats!—</div>
+    <div class="verse indent4">If you want to see hats</div>
+    <div class="verse indent0">Look at these of my brothers’—they’re chronic!”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_119">[Pg 119]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig60.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_120">[Pg 120]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">See here how the damsels of Spiers,</div>
+    <div class="verse indent0">Await the return of their Squires;</div>
+    <div class="verse indent4">At the long-looked-for hour</div>
+    <div class="verse indent4">They wave from the tower,</div>
+    <div class="verse indent0">And light all the drawing-room fires.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_121">[Pg 121]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig61.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_122">[Pg 122]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man with a yacht,</div>
+    <div class="verse indent0">Who said, “Whether you love me or not,</div>
+    <div class="verse indent4">You can hardly refuse</div>
+    <div class="verse indent4">Just to come for a cruise”;</div>
+    <div class="verse indent0">But she fainted away on the spot.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_123">[Pg 123]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig62.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_124">[Pg 124]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of the rocks,</div>
+    <div class="verse indent0">Who never could find any socks;</div>
+    <div class="verse indent4">So he put on his shoes</div>
+    <div class="verse indent4">And his second-best blouse,</div>
+    <div class="verse indent0">And danced a quadrille with a fox.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_125">[Pg 125]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig63.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_126">[Pg 126]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young lady of Annan,</div>
+    <div class="verse indent0">Whose father-in-law was a Canon;</div>
+    <div class="verse indent4">But she gave up the Church</div>
+    <div class="verse indent4">For artistic research,</div>
+    <div class="verse indent0">And consorted with Ricketts and Shannon.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_127">[Pg 127]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig64.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_128">[Pg 128]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Newport,</div>
+    <div class="verse indent0">Who was tried for a jester at Court;</div>
+    <div class="verse indent4">But he frankly confessed,</div>
+    <div class="verse indent4">After doing his best,</div>
+    <div class="verse indent0">It was more of a job than he thought.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_129">[Pg 129]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig65.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_130">[Pg 130]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of St. Gatien,</div>
+    <div class="verse indent0">Who strongly believed in cremation;</div>
+    <div class="verse indent4">And few could find fault</div>
+    <div class="verse indent4">With a family vault</div>
+    <div class="verse indent0">That contained every single relation.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_131">[Pg 131]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig66.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_132">[Pg 132]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Horta,</div>
+    <div class="verse indent0">Who saw something strange in the water.</div>
+    <div class="verse indent4">Preparing to dive,</div>
+    <div class="verse indent4">He cried, “Bake me alive,</div>
+    <div class="verse indent0">If it isn’t the Coastguardsman’s daughter!”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_133">[Pg 133]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig67.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_134">[Pg 134]</span></p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man of Peru,</div>
+    <div class="verse indent0">Who took both his boys to the Zoo;</div>
+    <div class="verse indent4">But when some silly goose</div>
+    <div class="verse indent4">Let the animals loose,</div>
+    <div class="verse indent0">He didn’t quite know what to do.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_135">[Pg 135]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig68.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_136">[Pg 136]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old man with a flute,</div>
+    <div class="verse indent0">A serpent ran into whose boot;</div>
+    <div class="verse indent4">He played day and night,</div>
+    <div class="verse indent4">But it didn’t take flight,</div>
+    <div class="verse indent0">So he finally went for the brute.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_137">[Pg 137]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig69.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_138">[Pg 138]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Hawarden,</div>
+    <div class="verse indent0">Who was practising golf in the garden;</div>
+    <div class="verse indent4">But he said, “If this fly,</div>
+    <div class="verse indent4">Doesn’t instantly die,</div>
+    <div class="verse indent0">I’m sure I shall never beat Vardon.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_139">[Pg 139]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig70.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_140">[Pg 140]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young student of John’s,</div>
+    <div class="verse indent0">Who always made friends with the dons;</div>
+    <div class="verse indent4">He would ask them to dine,</div>
+    <div class="verse indent4">Or to biscuits and wine,</div>
+    <div class="verse indent0">With a dish of most excellent scones.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_141">[Pg 141]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig71.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_142">[Pg 142]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Sparta,</div>
+    <div class="verse indent0">Whose wife was a regular tartar;</div>
+    <div class="verse indent4">When his apathy shocked her</div>
+    <div class="verse indent4">She went for the doctor,</div>
+    <div class="verse indent0">And said, “He pretends he’s a martyr.”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_143">[Pg 143]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig72.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_144">[Pg 144]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man of Algiers,</div>
+    <div class="verse indent0">Whose dog had been savage for years;</div>
+    <div class="verse indent4">So he bought him a roll</div>
+    <div class="verse indent4">(Which the brute swallowed whole),</div>
+    <div class="verse indent0">And then gave him a box on the ears.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_145">[Pg 145]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig73.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_146">[Pg 146]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was an old fellow of Tooting,</div>
+    <div class="verse indent0">Whose favourite amusement was shooting;</div>
+    <div class="verse indent4">When he wounded a bear,</div>
+    <div class="verse indent4">And took aim at a hare,</div>
+    <div class="verse indent0">They thought it was time to be scooting.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_147">[Pg 147]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig74.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_148">[Pg 148]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Clewer,</div>
+    <div class="verse indent0">Who was trying the open-air cure;</div>
+    <div class="verse indent4">When they said, “Are you snug?”</div>
+    <div class="verse indent4">He said, “Bring me a rug—</div>
+    <div class="verse indent0">It’s really too much to endure!”</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_149">[Pg 149]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig75.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_150">[Pg 150]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young man who’d a pup,</div>
+    <div class="verse indent0">Which he trained for the Waterloo Cup;</div>
+    <div class="verse indent4">But though healthy and sound,</div>
+    <div class="verse indent4">It would lie on the ground,</div>
+    <div class="verse indent0">And firmly refuse to get up.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_151">[Pg 151]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig76.jpg" alt="woodcut">
+</div>
+
+<p><span class="pagenum" id="Page_152">[Pg 152]</span></p>
+
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was a young fellow of Pannal,</div>
+    <div class="verse indent0">Who rowed himself over the channel;</div>
+    <div class="verse indent4">When they said, “You’ve no hat,”</div>
+    <div class="verse indent4">He replied, “What of that?”</div>
+    <div class="verse indent0">And wrapped up his head in a flannel.</div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_153">[Pg 153]</span></p>
+
+<div class="figcenter1">
+<img src="images/fig77.jpg" alt="woodcut">
+</div>
+
+
+<p class="c less">
+Glasgow<br>
+
+Printed at the University Press by<br>
+Robert MacLehose &amp; Co. Ltd.
+</p>
+
+<div class="transnote">
+
+<p class="c">Transcriber’s Notes:</p>
+
+<p> On page 72, ‘Who behaved like a regular baby’ has been changed to ‘Who behaved like a regular gaby’, to conform with limarick practice.</p>
+
+
+
+
+
+</div>
+
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 75511 ***</div>
+</body>
+</html>
+
